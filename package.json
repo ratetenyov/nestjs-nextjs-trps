@@ -1,0 +1,17 @@
+{
+  "name": "nestjs-nextjs-trpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build:web": "pnpm --filter web run build",
+    "build:server": "pnpm --filter server run build",
+    "start:web": "pnpm --filter web run start",
+    "start:server": "pnpm --filter server run start:prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
