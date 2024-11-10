@@ -10,7 +10,5 @@ export const Wrapper = () => {
         });
     }, []);
 
-    console.log({ response });
-
     return <div>Hello man, {response}</div>;
 };
