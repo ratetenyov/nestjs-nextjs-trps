@@ -7,7 +7,7 @@
     "dev": "pnpm run --parallel dev",
     "build:web": "pnpm --filter web run build",
     "build:server": "pnpm --filter server run build",
-    "start:web": "pnpm --filter web run start",
+    "start:web": "pnpm --filter web run dev",
     "start:server": "pnpm --filter server run start:prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
