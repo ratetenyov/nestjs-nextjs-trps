@@ -6,6 +6,7 @@ export const Wrapper = () => {
 
     useEffect(() => {
         trpc.hello.query({ name: 'Yasha' }).then((response) => {
+            console.log({ response });
             setResponse(response);
         });
     }, []);
